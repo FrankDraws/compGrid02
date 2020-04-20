@@ -92,7 +92,7 @@ h3 {
 #header {
   display: flex;
   width: 100%;
-  height: 45px;
+  height: auto;
   /* position: sticky;
   top: 60px; */
   border-top: 1px solid #dbdbdb;
@@ -103,7 +103,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 25%;
   background-color: #fff;
 }
 
@@ -186,22 +186,18 @@ h3 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 55px;
+  height: 47px;
   background-color: #f9f9f9;
   padding: 0 .7em;
   border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
 }
 
-.btn {
-  width: 25%;
-}
-
 button {
   background-color: #008800;
   border: 0;
   border-radius: 8px;
-  height: 25px;
+  height: 33px;
   color: #fff;
   width: 20%;
   cursor: pointer;
