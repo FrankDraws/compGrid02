@@ -46,8 +46,8 @@ h3 {
 
 .topSection {
   max-width: 600px;
-  position: fixed;
-  top: 0;
+  position: sticky;
+  top: -60px;
 }
 
 .warning {
@@ -82,6 +82,7 @@ h3 {
 .ticketWidget {
   width: 100%;
   height: 60px;
+  background-color: #fff;
 }
 
 /* 
@@ -92,10 +93,10 @@ h3 {
   display: flex;
   width: 100%;
   height: 55px;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   border-top: 1px solid #dbdbdb;
-  margin-top: 180px;
+  /* margin-top: 180px; */
 }
 
 .product {
@@ -186,10 +187,9 @@ h3 {
   width: 100%;
   height: 65px;
   background-color: #f9f9f9;
-  position: sticky;
-  bottom: 0;
   padding: 0 .7em;
   border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .btn {
@@ -200,7 +200,7 @@ button {
   background-color: #008800;
   border: 0;
   border-radius: 12px;
-  height: 45px;
+  height: 35px;
   color: #fff;
   width: 20%;
   cursor: pointer;
@@ -210,16 +210,16 @@ button {
     / / / / LAYERING  
 */
 
-.topSection, .nav, .ticketWidget, h3 {
-  z-index: -1;
+.topSection {
+  z-index: 500;
 }
 
-#header {
+/* #header {
   z-index: 50;
-}
+} */
 
 .cr {
-  z-index: 30;
+  z-index: -1;
 }
 
 #buytab {
