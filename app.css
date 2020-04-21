@@ -46,8 +46,8 @@ h3 {
 
 .topSection {
   max-width: 600px;
-  position: sticky;
-  top: -60px;
+  /* position: sticky;
+  top: -60px; */
 }
 
 .warning {
@@ -83,6 +83,7 @@ h3 {
   width: 100%;
   height: 60px;
   background-color: #fff;
+  sticky
 }
 
 /* 
