@@ -103,6 +103,7 @@ h3 {
   width: 100%;
   height: 60px;
   background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .hero {
@@ -114,12 +115,30 @@ h3 {
   filter: grayscale(100%);
 }
 
-.bar, .accordion {
+.bar {
   width: 100%;
   height: 55px;
   background-color: #1c3385;
   color: #fff;
   padding-left: 1em;
+}
+
+.accordion {
+  width: 100%;
+  height: auto;
+  /* background-color: #1c3385; */
+  color: #0368D9;
+  padding: .7em 0 1em 1em;
+  border-top: 1px solid #dbdbdb;
+}
+
+.accordion a:first-child {
+  text-decoration: none;
+  border-bottom: 3px solid #0368D9;
+}
+
+.accordion a {
+  cursor: pointer;
 }
 
 .intro {
@@ -139,8 +158,7 @@ h3 {
   width: 100%;
   height: auto;
   /* position: sticky; */
-  top: 120px;
-  border-top: 1px solid #dbdbdb;
+  /* border-top: 1px solid #dbdbdb; */
   /* margin-top: 180px; */
   top: 120px;
 }
